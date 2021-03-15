@@ -1,51 +1,51 @@
 .menu__item {
-	font: 800 20px/24px gilroy-regular, arial, helvetica, sans-serif;
+	font: 800 20px/24px Gilroy, arial, helvetica, sans-serif;
 	text-decoration: none;
 }
 
 .menu__button {
-	font: 800 20px/24px montserratmedium, arial, helvetica, sans-serif;
+	font: 800 20px/24px Monserrat, arial, helvetica, sans-serif;
 }
 
 .main__header {
-	font: 900 40px/48px montserratmedium, arial, helvetica, sans-serif;
+	font: 900 40px/48px Monserrat, arial, helvetica, sans-serif;
 }
 
 .main__description {
-	font: 700 30px/36px montserratmedium, arial, helvetica, sans-serif;
+	font: 700 30px/36px Monserrat, arial, helvetica, sans-serif;
 }
 
 .benefits__header, .benefits__item_header, .skills__header, .form__header {
-	font: 900 30px/36px montserratmedium, arial, helvetica, sans-serif;
+	font: 900 30px/36px Monserrat, arial, helvetica, sans-serif;
 }
 
 .benefits__item_description {
-	font: 500 20px/24px montserratmedium, arial, helvetica, sans-serif;
+	font: 500 20px/24px Monserrat, arial, helvetica, sans-serif;
 }
 
 .benefits__button {
-	font: 800 20px/24px montserratmedium, arial, helvetica, sans-serif;
+	font: 800 20px/24px Monserrat, arial, helvetica, sans-serif;
 	text-decoration: none;
 }
 
 .skills__item_description {
-	font: 500 20px/24px montserratmedium, arial, helvetica, sans-serif;
+	font: 500 20px/24px Monserrat, arial, helvetica, sans-serif;
 }
 
 .skills__item {
-	font: 600 30px/36px montserratmedium, arial, helvetica, sans-serif;
+	font: 600 30px/36px Monserrat, arial, helvetica, sans-serif;
 }
 
 .form__description {
-	font: 600 20px/24px montserratmedium, arial, helvetica, sans-serif;
+	font: 600 20px/24px Monserrat, arial, helvetica, sans-serif;
 }
 
 .form__item {
-	font: 600 15px/18px montserratmedium, arial, helvetica, sans-serif;
+	font: 600 15px/18px Monserrat, arial, helvetica, sans-serif;
 }
 
 .form__button {
-	font: 900 20px/24px montserratmedium, arial, helvetica, sans-serif;
+	font: 900 20px/24px Monserrat, arial, helvetica, sans-serif;
 	text-decoration: none;
 }
 
