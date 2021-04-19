@@ -2,7 +2,7 @@
 	font-family: 'Giltory';
 	src: url(fonts/gilroy-regular.woff) format('woff'),
 	url(fonts/Gilroy-Regular.ttf) format('ttf'),
-	url(fonts/Gilroy-Light.woff2) format('woff2');
+	url(fonts/Gilroy-Regular.woff2.woff2) format('woff2');
 	font-weight: normal;
   font-style: normal;
 }
