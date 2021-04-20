@@ -1,18 +1,59 @@
-.menu__item {
-	font: 800 20px/24px Gilroy, arial, helvetica, sans-serif;
-	text-decoration: none;
+body {
+	margin: 0;
 }
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+	border: 3px solid #330099;
+ 	border-left: none;
+ 	border-right: none;
+/*	margin: auto;*/
+
+}
+
+.menu {
+	padding: 43px 0 43px 0;
+	align-items: center;
+ 	}
+
+
+.menu__item {
+	font: 700 20px/24px Gilroy, arial, helvetica, sans-serif;
+	text-decoration: none;
+	padding-right: 36px;
+	color: #585858;
+}
+
 
 .menu__button {
 	font: 800 20px/24px Monserrat-bold, arial, helvetica, sans-serif;
+	padding: 15px 30px;
+  background-color: #330099;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+	margin-right: 130px
+ }
+
+.main {
+	background: center no-repeat url(images/img_background.svg);
+	/*margin: auto;*/
+	text-align: right;
 }
 
 .main__header {
 	font: 900 40px/48px Monserrat-bold, arial, helvetica, sans-serif;
+	padding: 151px 130px 0 52%;
+	margin: 0 0 8px 0;
+	color: #330099;
 }
 
 .main__description {
-	font: 700 30px/36px Monserrat-regular, arial, helvetica, sans-serif;
+	font: 800 30px/36px Monserrat-bold, arial, helvetica, sans-serif;
+	padding: 0 130px 150px 65%;
+	margin: 0;
+	color: #fff;
 }
 
 .benefits__header, .benefits__item_header, .skills__header, .form__header {
