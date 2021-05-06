@@ -26,7 +26,7 @@ body {
 .menu__item {
 	font: 800 20px/24px Gilroy, arial, helvetica, sans-serif;
 	text-decoration: none;
-	padding-right: 33px;
+	padding-right: 34px;
 	color: #585858;
 }
 
@@ -48,15 +48,15 @@ body {
 }
 
 .main__header {
-	font: 900 40px/48px Montserrat-black, arial, helvetica, sans-serif;
-	padding: 151px 130px 0 52%;
+	font: 900 40px/49px Montserrat-black, arial, helvetica, sans-serif;
+	padding: 150px 130px 0 52%;
 	margin: 0 0 11px 0;
 	color: #330099;
 }
 
 .main__description {
 	font: 700 30px/36px Montserrat-bold, arial, helvetica, sans-serif;
-	padding: 0 135px 150px 62%;
+	padding: 0 138px 150px 62%;
 	margin: 0;
 	color: #fff;
 }
@@ -105,8 +105,30 @@ body {
 #checkbox {
 	display: none;
 }
+@media (max-width: 1024px) {
+ 	.main__header{
+ 		padding: 150px 130px 0 32%;
+ 	}
 
-@media (max-width: 320px) {
+ 	.main__description {
+ 		padding: 0 135px 150px 42%;
+ 	}
+}
+@media (max-width: 1261px) {
+ 	.main__header{
+ 		padding: 150px 130px 0 32%;
+ 	}
+
+ 	.main__description {
+ 		padding: 0 135px 150px 15%;
+ 	}
+}
+
+
+@media (max-width: 831px) {
+		body {
+		width: 320px;
+	}
 	.menu__item {
 	display: none;
 	}
@@ -117,7 +139,7 @@ body {
 	}
 
 	.menu {
-		padding: 16px 0 21px 0;
+		padding: 15px 0 19px 0;
 		align-items: center;
  	}
 
@@ -132,21 +154,21 @@ body {
 		text-align: right;
 	}
 	.main__header {
-		font: 900 20px/25px Montserrat-black, arial, helvetica, sans-serif;
-		padding: 26px 33px 0 66px;
+		font: 900 20px/24px Montserrat-black, arial, helvetica, sans-serif;
+		padding: 27px 36px 0 39px;
 		margin: 0;
 		color: #330099;
 	}
 
 .main__description {
 		font: 700 16px/20px Montserrat-bold, arial, helvetica, sans-serif;
-		padding: 0 30px 118px 105px;
+		padding: 0px 34px 118px 102px;
 		margin: 0;
 		color: #fff;
 	}
 
 	#checkbox:checked ~.menu__box {
-	  width: 100%;
+	  width: 320px;
 	  height: 80%;
 	  background: #fff;
 	  display: block;
@@ -155,7 +177,7 @@ body {
 	}
 
 	.burger {
-		padding: 26px 53px 0 0;
+		padding: 23px 53px 0 0;
 		position: relative;
 		cursor: pointer;
 		z-index: 1;
@@ -171,7 +193,7 @@ body {
 	.burger__line::before {
 		content:'';
 		background: #330099;
-		top: -7px;
+		top: -8px;
 		width: 23px;
 		height: 3px;
 		position: absolute;
@@ -181,7 +203,7 @@ body {
 	.burger__line::after {
 		content:'';
 		background: #330099;
-		top: 7px;
+		top: 8px;
 		width: 23px;
 		height: 3px;
 		position: absolute;
@@ -231,7 +253,6 @@ body {
 	#checkbox:checked ~ label > .burger > .burger__line::before {
 		top: 0;
 		transform: rotate(45deg);
-		/*transition: transform .2s ease-in, top .2s linear .2s;*/
 		transition: top .2s linear, transform .2s ease-in .2s
 	}
 }
