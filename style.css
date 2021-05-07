@@ -4,7 +4,7 @@
 
 body {
 	margin: auto;
-	/*max-width: 1440px;*/
+	max-width: 1440px;
 }
 
 .header {
@@ -46,6 +46,10 @@ body {
 	/*margin: auto;*/
 	text-align: right;
 }
+.main__header_320 {
+		display: none;
+	}
+
 
 .main__header {
 	font: 900 40px/49px Montserrat-black, arial, helvetica, sans-serif;
@@ -54,9 +58,10 @@ body {
 	color: #330099;
 }
 
+
 .main__description {
 	font: 700 30px/36px Montserrat-bold, arial, helvetica, sans-serif;
-	padding: 0 138px 150px 62%;
+	padding: 0 132px 150px 62%;
 	margin: 0;
 	color: #fff;
 }
@@ -153,16 +158,26 @@ body {
 		/*margin: auto;*/
 		text-align: right;
 	}
+
+	.main__header_1440 {
+		display: none;
+	}
+
+	.main__header_320 {
+		display: block;
+	}
+
 	.main__header {
 		font: 900 20px/24px Montserrat-black, arial, helvetica, sans-serif;
-		padding: 27px 36px 0 39px;
+		padding: 27px 30px 0 39px;
 		margin: 0;
 		color: #330099;
 	}
 
+
 .main__description {
 		font: 700 16px/20px Montserrat-bold, arial, helvetica, sans-serif;
-		padding: 0px 34px 118px 102px;
+		padding: 0px 30px 118px 101px;
 		margin: 0;
 		color: #fff;
 	}
