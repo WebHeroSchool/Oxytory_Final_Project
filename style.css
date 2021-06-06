@@ -32,7 +32,7 @@ body {
 
 
 .menu__button {
-	font: 800 20px/24px Montserrat-bold, arial, helvetica, sans-serif;
+	font: 800 20px/24px 'Montserrat-bold', arial, helvetica, sans-serif;
 	padding: 13px 31px;
   background-color: #330099;
   color: #fff;
@@ -52,7 +52,7 @@ body {
 
 
 .main__header {
-	font: 900 40px/49px Montserrat-black, arial, helvetica, sans-serif;
+	font: 900 40px/49px 'Montserrat-black', arial, helvetica, sans-serif;
 	padding: 150px 130px 0 52%;
 	margin: 0 0 11px 0;
 	color: #330099;
@@ -60,15 +60,16 @@ body {
 
 
 .main__description {
-	font: 700 30px/36px Montserrat-bold, arial, helvetica, sans-serif;
+	font: 700 30px/36px 'Montserrat-bold', arial, helvetica, sans-serif;
 	padding: 0 132px 150px 62%;
 	margin: 0;
 	color: #fff;
 }
 
 .benefits__header, .benefits__item_header, .skills__header, .form__header {
-	font: 900 30px/36px Montserrat-black, arial, helvetica, sans-serif;
+	font: 900 30px/36px 'Montserrat-black', arial, helvetica, sans-serif;
 }
+
 .benefits {
 	text-align: center;
 	background-color: #F9F9F9;
@@ -110,7 +111,7 @@ body {
 }
 
 .benefits__item_description {
-	font: 500 20px/24px Montserrat-regular, arial, helvetica, sans-serif;
+	font: 500 20px/24px 'Montserrat-regular', arial, helvetica, sans-serif;
 	margin: 0px;
 }
 
@@ -122,7 +123,7 @@ body {
 }
 
 .benefits__button {
-	font: 900 20px/24px Montserrat-bold, arial, helvetica, sans-serif;
+	font: 900 20px/24px 'Montserrat-bold', arial, helvetica, sans-serif;
 	text-decoration: none;
 	justify-content: center;
 	padding: 21px 37px;
@@ -135,22 +136,22 @@ body {
 }
 
 .skills__item_description {
-	font: 600 30px/36px Montserrat-bold, arial, helvetica, sans-serif;
+	font: 600 30px/36px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 .skills__item_addition {
-	font: 500 20px/24px Montserrat-regular, arial, helvetica, sans-serif;
+	font: 500 20px/24px 'Montserrat-regular', arial, helvetica, sans-serif;
 }
 
 .form__description {
-	font: 600 20px/24px Montserrat-regular, arial, helvetica, sans-serif;
+	font: 600 20px/24px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 
 .form__item {
-	font: 600 15px/18px Montserrat-regular, arial, helvetica, sans-serif;
+	font: 600 15px/18px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 
 .form__button {
-	font: 900 20px/24px Montserrat-bold, arial, helvetica, sans-serif;
+	font: 900 20px/24px 'Montserrat-bold', arial, helvetica, sans-serif;
 	text-decoration: none;
 }
 
@@ -204,6 +205,10 @@ body {
 .skills__item_addition {
 	padding-top: 10px;
 }
+.skills__item_addition_js {
+	padding-right: 5px;
+}
+
 .skills__item__react_img, .skills__item__layout_img {
 	margin-right: 26px;
 }
@@ -231,7 +236,8 @@ body {
 }
 
 .form__img {
-	margin: 0 0 49px 0;
+	margin: 0 0 46px 0;
+	padding-right: 16px;
 }
 
 .form__description {
@@ -254,16 +260,16 @@ body {
 }
 
 input[type="text" i] {
-  padding: 24px 89px 24px 39px;
+  padding: 24px 72px 24px 38px;;
 }
 
 .form__header {
-	margin: 0 0 36px 0;
-	padding: 60px 0 0 0;
+	margin: 0 0 37px 0;
+	padding: 60px 12px 0 0;
 }
 
 .form__button {
-	font: 900 20px/24px Montserrat-bold, arial, helvetica, sans-serif;
+	font: 900 20px/24px 'Montserrat-bold', arial, helvetica, sans-serif;
 	text-decoration: none;
 	justify-content: center;
 	padding: 23px 90px;
@@ -275,9 +281,49 @@ input[type="text" i] {
   margin-bottom: 90px;
 }
 
+.form__img {
+	padding-right: 16px;
+}
+
 .skills__bar{
 	display: none;
 }
+
+.footer {
+	background: #330099;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.footer__description {
+	margin: 0 0 20px 0;
+	padding: 60px 0 0 0;
+	color: #ffff;
+	font: 400 20px/23px roboto, arial;
+}
+
+.footer__trademark {
+	font: 400 20px/23,42px roboto, arial;
+	color: #ffff;
+	padding: 0 0 60px 0;
+	margin: 0;
+}
+
+.icons {
+	margin: 0 0 71px 0;
+}
+
+.footer__image {
+	margin-right: 96px;
+}
+
+.footer__image:last-child {
+	margin-right: 0;
+}
+	.br_320 {
+		display: none;
+	}
 
 @media (max-width: 1024px) {
  	.main__header{
@@ -307,7 +353,7 @@ input[type="text" i] {
 	display: none;
 	}
 	.menu__button {
-		font: 800 8px/10px Montserrat-bold, arial, helvetica, sans-serif;
+		font: 800 8px/10px 'Montserrat-bold', arial, helvetica, sans-serif;
 		padding: 5px 11px;
 		margin: 0 20px 0 0;	  
 	}
@@ -337,7 +383,7 @@ input[type="text" i] {
 	}
 
 	.main__header {
-		font: 900 20px/24px Montserrat-black, arial, helvetica, sans-serif;
+		font: 900 20px/24px 'Montserrat-black', arial, helvetica, sans-serif;
 		padding: 27px 30px 0 39px;
 		margin: 0;
 		color: #330099;
@@ -345,7 +391,7 @@ input[type="text" i] {
 
 
 	.main__description {
-		font: 700 16px/20px Montserrat-bold, arial, helvetica, sans-serif;
+		font: 700 16px/20px 'Montserrat-bold', arial, helvetica, sans-serif;
 		padding: 0px 30px 118px 101px;
 		margin: 0;
 		color: #fff;
@@ -408,7 +454,7 @@ input[type="text" i] {
 	 	text-decoration: none;
 	 	position: relative;
 	 	margin-bottom: 22px;
-	 	font: 500 30px/35px Montserrat-regular, arial, helvetica, sans-serif;
+	 	font: 500 30px/35px 'Montserrat-regular', arial, helvetica, sans-serif;
 	 	padding: 0;
 	}
 
@@ -429,7 +475,7 @@ input[type="text" i] {
 	}
 
 	.benefits__header, .benefits__item_header, .skills__header, .form__header {
-	font: 900 16px/19px Montserrat-black, arial, helvetica, sans-serif;
+	font: 900 16px/19px 'Montserrat-black', arial, helvetica, sans-serif;
 	}
 	.benefits__header {
 	 padding: 45px 40px 40px 40px;
@@ -437,7 +483,7 @@ input[type="text" i] {
 	}
 
 	.benefits__item_description {
-	font: 500 16px/19px Montserrat-regular, arial, helvetica, sans-serif;
+	font: 500 16px/19px 'Montserrat-regular', arial, helvetica, sans-serif;
 	margin: 0px;
 	padding: 0;
 	}
@@ -452,12 +498,13 @@ input[type="text" i] {
 	.benefits__item {
 		margin-bottom: 40px;
 	}
+
 	.image__heart, .image__pig, .image__medal {
 		width: 17% ;
 		height: auto;
 		padding: 0;
-		
 	}
+
 	.image__pig {
 		margin-bottom: 4px;
 	}
@@ -485,7 +532,7 @@ input[type="text" i] {
 	display: none;
 }
 	.benefits__button {
-		font: 900 16px/19px Montserrat-bold, arial, helvetica, sans-serif;
+		font: 900 16px/19px 'Montserrat-bold', arial, helvetica, sans-serif;
 		padding: 17px 21px;
 	  margin-bottom: 45px;
 	}
@@ -514,14 +561,14 @@ input[type="text" i] {
 		padding-top: 35px;
 		padding-bottom: 35px;
 		margin: 0;
-		font: 900 16px/19px Montserrat-bold, arial, helvetica;
+		font: 900 16px/19px 'Montserrat-bold', arial, helvetica;
 	}
 	.skills__item_description {
-		font: 600 17px/19px Montserrat-semibold, arial, helvetica;
+		font: 600 17px/19px 'Montserrat-semibold', arial, helvetica;
 /*		word-spacing : 2px;*/
 	}
 	.skills__item_addition {
-		font: 500 14px/17px Montserrat-regular, arial, helvetica;
+		font: 500 14px/17px 'Montserrat-regular', arial, helvetica;
 	}
 	.skills__item_br_1440 {
 		display: none;
@@ -545,7 +592,7 @@ input[type="text" i] {
 		border-radius: 50%;
 		background: #ffff;
 		border: 1px solid #E1E6E9;
-		margin-right: 18px;
+		margin-right: 14px;
 	}
 
 	.skills__bar_active	{
@@ -559,15 +606,70 @@ input[type="text" i] {
 	}
 
 	input[type="text" i] {
-  padding: 19px 150px 19px 25px;
+  	padding: 19px 105px 15px 25px;
 	}
 
+	.form__header {
+		font: 900 16px/19px 'Montserrat-black', arial, helvetica, sans-serif;
+		margin:0 0 20px 0;
+		padding: 33px 0 0 0;
+	}
+	.form__description {
+	font: 600 16px/19px 'Montserrat-semibold', arial, helvetica, sans-serif;
+	margin: 0 0 21px 0;
+	padding: 0 23px;
+	}
 	.form__item {
-		font: 600 10px/12px Montserrat-semibold, arial, helvetica;;
+		font: 600 10px/12px 'Montserrat-semibold', arial, helvetica;
+		margin-bottom: 10px;
+	}
+		.form__item:last-child {
+		margin-bottom: 30px;
 	}
 
-	
-	
+	.form__button {
+		font: 900 16px/19px 'Montserrat-black', arial, helvetica, sans-serif;
+		padding: 15px 82px;
+		margin-bottom: 31px;
+	}
+
+	.form >p > br {
+		display: none;
+	}
+
+	.form__img {
+		padding: 0;
+		margin-bottom: 25px;
+	}
+
+
+	.footer__description {
+		font: 500 14px/16px 'Montserrat-regular', arial, helvetica;
+		padding: 31px 0px 0px 0px;
+		margin-bottom: 15px;
+	}
+
+	.icons {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 47px;
+		padding: 0px 30px;
+	}
+
+	.footer__image {
+		width: 35px;
+		height: auto;
+		margin: 0;
+	}
+	.br_320 {
+		display: block;
+	}
+	.footer__trademark {
+	font: 400 14px/16px roboto, arial;
+	color: #ffff;
+	padding: 0 0 32px 0;
+	margin: 0;
+}
 }
 
 

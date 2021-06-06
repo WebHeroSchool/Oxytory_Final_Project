@@ -1,45 +1,44 @@
 @font-face {
 	font-family: 'Giltory';
-	src: url(fonts/gilroy-regular.woff) format('woff'),
-	url(fonts/Gilroy-Regular.ttf) format('ttf'),
-	url(fonts/Gilroy-Regular.woff2) format('woff2');
+	src: url('fonts/gilroy-regular.woff') format('woff'),
+	url('fonts/Gilroy-Regular.ttf') format('ttf'),
+	url('fonts/Gilroy-Regular.woff2') format('woff2');
 	font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-bold';
-  src: url(fonts/Montserrat-Bold.ttf) format('ttf'),
-  url(fonts/Montserrat-Bold.woff) format('woff'),
-  url(fonts/Montserrat-Bold.woff2) format('woff2');
+  src: url('fonts/Montserrat-Bold.ttf') format('ttf'),
+  url('fonts/Montserrat-Bold.woff') format('woff'),
+  url('fonts/Montserrat-Bold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Montserrat-semibold';
-  src: url(fonts/Montserrat-SemiBold.ttf) format('ttf'),
-  url(fonts/montserrat-semibold.woff) format('woff'),
-  url(fonts/montserrat-semibold.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 @font-face {
   font-family: 'Montserrat-regular';
-  src: url(fonts/Montserrat-Regular.ttf) format('ttf'),
-  url(fonts/Montserrat-Regular.woff) format('woff'),
-  url(fonts/Montserrat-Regular.woff2) format('woff2');
+  src: url('fonts/Montserrat-Regular.ttf') format('ttf'),
+  url('fonts/Montserrat-Regular.woff') format('woff'),
+  url('fonts/Montserrat-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-black';
-  src: url(fonts/Montserrat-Black.ttf) format('ttf'),
-  url(fonts/Montserrat-Black.woff) format('woff'),
-  url(fonts/Montserrat-Black.woff2) format('woff2');
+  src: url('fonts/Montserrat-Black.ttf') format('ttf'),
+  url('fonts/Montserrat-Black.woff') format('woff'),
+  url('fonts/Montserrat-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-semibold'
+  scr: url('fonts/Montserrat-SemiBold.ttf') format('ttf'),
+  url('fonts/montserrat-semibold-webfont.woff') format('woff'),
+  url('fonts/montserrat-semibold-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
