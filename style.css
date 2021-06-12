@@ -137,18 +137,18 @@ body {
 }
 
 .skills__item_description {
-	font: 600 30px/36px 'Montserrat-SemiBold', arial, helvetica, sans-serif;
+	font: 600 30px/36px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 .skills__item_addition {
 	font: 500 20px/24px 'Montserrat-regular', arial, helvetica, sans-serif;
 }
 
 .form__description {
-	font: 600 20px/24px 'Montserrat-SemiBold', arial, helvetica, sans-serif;
+	font: 600 20px/24px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 
 .form__item {
-	font: 600 15px/18px 'Montserrat-SemiBold', arial, helvetica, sans-serif;
+	font: 600 15px/18px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 
 .form__button {
@@ -664,7 +664,7 @@ input[type="text" i] {
 		font: 900 17px/20px 'Montserrat-bold', arial, helvetica;
 	}
 	.skills__item_description {
-		font: 600 16px/20px 'Montserrat-SemiBold', arial, helvetica;
+		font: 600 16px/20px 'Montserrat-semibold', arial, helvetica;
 /*		word-spacing : 2px;*/
 	}
 	.skills__item_addition {
@@ -716,12 +716,12 @@ input[type="text" i] {
 		padding: 33px 0 0 0;
 	}
 	.form__description {
-	font: 600 16px/19px 'Montserrat-SemiBold', arial, helvetica, sans-serif;
+	font: 600 16px/19px 'Montserrat-semibold', arial, helvetica, sans-serif;
 	margin: 0 0 21px 0;
 	padding: 0 23px;
 	}
 	.form__item {
-		font: 600 10px/12px 'Montserrat-SemiBold', arial, helvetica;
+		font: 600 10px/12px 'Montserrat-semibold', arial, helvetica;
 		margin-bottom: 10px;
 	}
 		.form__item:last-child {

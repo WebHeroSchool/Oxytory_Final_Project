@@ -35,10 +35,10 @@
 }
 
 @font-face {
-  font-family: 'Montserrat-SemiBold';
-  src: url('fonts/Montserrat-SemiBold.ttf') format('ttf'),
-  url('fonts/Montserrat-SemiBold.woff') format('woff'),
-  url('fonts/Montserrat-SemiBold.woff2') format('woff2');
+  font-family: 'Montserrat-semibold';
+  src: url('fonts/Montserrat-semibold.ttf') format('ttf'),
+  url('fonts/Montserrat-semibold.woff') format('woff'),
+  url('fonts/Montserrat-semibold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
