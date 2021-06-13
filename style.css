@@ -10,21 +10,20 @@ body {
 .header {
 	display: flex;
 	justify-content: flex-end;
-	border: 3px solid #330099;
- 	border-left: none;
- 	border-right: none;
-/*	margin: auto;*/
-
+	border-top: 3px solid #330099;
+	/* border-left: none; */
+	/* border-right: none; */
+	/*	margin: auto;*/
 }
 
 .menu {
-	padding: 43px 0 36px 0;
+	padding: 45px 0 38px 0;
 	align-items: center;
- 	}
+	}
 
 
 .menu__item {
-	font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+	font: 800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
 	text-decoration: none;
 	padding-right: 41px;
 	color: #585858;
@@ -32,19 +31,22 @@ body {
 
 
 .menu__button {
-	font: 800 20px/24px 'Montserrat-extrabold', arial, helvetica, sans-serif;
-	padding: 11px 37px;
-  background-color: #330099;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 50px;
+	font: 700 19px/22px 'Montserrat-bold', arial, helvetica, sans-serif;
+	padding: 14px 35px 13px 34px;
+	background-color: #330099;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
 	margin-right: 130px;
- }
+	}
 
 .main {
 	background: center no-repeat url(images/img_background.svg);
 	/*margin: auto;*/
 	text-align: right;
+	border-top: 3px solid #330099;
+	/* border-left: none; */
+	/* border-right: none; */
 }
 .main__header_320 {
 		display: none;
@@ -53,15 +55,15 @@ body {
 
 .main__header {
 	font: 900 40px/49px 'Montserrat-black', arial, helvetica, sans-serif;
-	padding: 150px 130px 0 52%;
-	margin: 0 0 11px 0;
+	padding: 151px 130px 0 52%;
+	margin: 0 0 8px 0;
 	color: #330099;
 }
 
 
 .main__description {
-	font: 700 30px/36px 'Montserrat-bold', arial, helvetica, sans-serif;
-	padding: 0 132px 150px 62%;
+	font: 700 30px/37px 'Montserrat-bold', arial, helvetica, sans-serif;
+	padding: 0 130px 150px 62%;
 	margin: 0;
 	color: #fff;
 }
@@ -75,15 +77,15 @@ body {
 	background-color: #F9F9F9;
 }
 .benefits__header {
- padding: 90px 0 52px 0;
+ padding: 91px 0 52px 0;
  margin: 0;
 }
 
 .benefits__allitems {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 0 97px 0;
-	padding: 0 9.2%;
+	margin: 0 0 96px 0;
+	padding: 0 9.3%;
 }
 
 .benefits__item_header {
@@ -92,15 +94,17 @@ body {
 
 .image__heart {
 	margin-bottom: 34px;
-	padding: 6px 0 0 7px;
+	padding: 5px 0 0 2px;
 }
 
 .image__pig {
-	margin-bottom: 30px;
+	margin-bottom: 29px;
+	padding: 0 0 0 17px;
 }
 
 .image__medal {
 	margin-bottom: 26px;
+	padding: -1px 0 0 0;
 }
 
 .benefits__item {
@@ -113,31 +117,31 @@ body {
 .benefits__item_description {
 	font: 500 20px/24px 'Montserrat-regular', arial, helvetica, sans-serif;
 	margin: 0px;
-	padding: 0 4px 0 0;
+	padding: 0 3px 0 0;
 }
 
 .benefits__item_description2 {
-	padding: 18px 0 0 0;
+	padding: 17px 0 0 25px;
 }
-.benefits__item_price {
-	padding-left: 20px;
+.benefits__item_header_price {
+	 padding-left: 15px;
 }
 
 .benefits__button {
-	font: 900 20px/24px 'Montserrat-bold', arial, helvetica, sans-serif;
+	font: 800 20px/23px 'Montserrat-black', arial, helvetica, sans-serif;
 	text-decoration: none;
 	justify-content: center;
-	padding: 21px 40px;
+	padding: 21px 33px 21px 34px;
 	background-color: #330099;
-  color: #FFDA45;
-  text-decoration: none;
-  border-radius: 50px;
-  display: inline-block;
-  margin-bottom: 90px;
+	color: #FFDA45;
+	text-decoration: none;
+	border-radius: 50px;
+	display: inline-block;
+	margin-bottom: 90px;
 }
 
 .skills__item_description {
-	font: 600 30px/36px 'Montserrat-semibold', arial, helvetica, sans-serif;
+	font: 600 30px/37px 'Montserrat-semibold', arial, helvetica, sans-serif;
 }
 .skills__item_addition {
 	font: 500 20px/24px 'Montserrat-regular', arial, helvetica, sans-serif;
@@ -157,7 +161,7 @@ body {
 }
 
 .footer__description, .footer__trademark {
-	font: 400 20px/24px roboto, arial, helvetica, sans-serif;
+	font: 400 20px/24px 'Roboto-medium', arial, helvetica, sans-serif;
 }
 
 .menu__box {
@@ -192,7 +196,7 @@ body {
 	align-items: center;
 }
 .skills__item_js {
-	margin-bottom: 78px;
+	margin-bottom: 79px;
 }
 
 .skills__item_addition, .skills__item_description {
@@ -277,13 +281,13 @@ input[type="text" i] {
 	font: 900 20px/24px 'Montserrat-bold', arial, helvetica, sans-serif;
 	text-decoration: none;
 	justify-content: center;
-	padding: 23px 90px;
+	padding: 23px 92px;
 	background-color: #4AB272;
-  color: #FFFF;
-  text-decoration: none;
-  border-radius: 50px;
-  display: inline-block;
-  margin-bottom: 61px;
+	color: #FFFF;
+	text-decoration: none;
+	border-radius: 50px;
+	display: inline-block;
+	margin-bottom: 61px;
 }
 
 .form__img {
@@ -305,7 +309,7 @@ input[type="text" i] {
 	margin: 0 0 20px 0;
 	padding: 60px 0 0 0;
 	color: #ffff;
-	font: 400 20px/23px roboto, arial;
+	font: 400 21px/23px 'Roboto-medium', arial;
 }
 
 .footer__trademark {
@@ -549,6 +553,7 @@ input[type="text" i] {
 		background-size: 100%;
 		/*margin: auto;*/
 		text-align: right;
+		border: none;
 	}
 
 	.main__header_1440 {
@@ -576,18 +581,22 @@ input[type="text" i] {
 
 
 	.benefits__header, .benefits__item_header, .skills__header, .form__header {
-	font: 900 16px/19px 'Montserrat-black', arial, helvetica, sans-serif;
+	font: 900 16px/20px 'Montserrat-black', arial, helvetica, sans-serif;
 	}
 	.benefits__header {
-	 padding: 48px 40px 40px 40px;
+	 padding: 47px 40px 39px 37px;
 	 margin: 0;
 	}
 
 	.benefits__item_description {
 	font: 500 16px/20px 'Montserrat-regular', arial, helvetica, sans-serif;
 	margin: 0px;
-	padding: 0;
+	padding: 0 2px 0 0;
 	}
+
+	.benefits__item_header_price {
+    padding-left: 0px;
+}
 
 	.benefits__allitems {
 		display: block;
@@ -598,28 +607,30 @@ input[type="text" i] {
 	
 	.benefits__item {
 		margin-bottom: 34px;
-		padding:0 2px 0 0;
+		padding: 0px 0px 0 0;
 	}
 
 	.image__heart, .image__pig, .image__medal {
-		width: 17% ;
+		width: 17%;
 		height: auto;
 		padding: 0;
 	}
 
 	.image__pig {
 		margin-bottom: 3px;
+		padding: 0;
 	}
 
 	.image__heart {
-		margin-bottom: 6px;
+		margin-bottom: 5px;
+		padding: 0 0 0 0px;
 	}
 	.image__medal {
 		margin-bottom: 0px;
 	}
 
 	.benefits__item_header {
-		margin: 0 0 5px 0;
+		margin: 0 0px 3px 0;
 	}
 
 	.benefits__item_description3 {
@@ -633,8 +644,8 @@ input[type="text" i] {
 }
 	.benefits__button {
 		font: 800 18px/19px 'Montserrat-extrabold', arial, helvetica, sans-serif;
-		padding: 17px 20px;
-	  margin-bottom: 45px;
+		padding: 17px 20px 18px 21px;
+		margin-bottom: 43px;
 	}
 
 	.skills {
@@ -658,7 +669,7 @@ input[type="text" i] {
 	}
 
 	.skills__header {
-		padding-top: 36px;
+		padding-top: 37px;
 		padding-bottom: 35px;
 		margin: 0;
 		font: 900 17px/20px 'Montserrat-bold', arial, helvetica;
@@ -669,7 +680,7 @@ input[type="text" i] {
 	}
 	.skills__item_addition {
 		font: 500 14px/17px 'Montserrat-regular', arial, helvetica;
-		padding-top: 7px;
+		padding: 8px 5px 0 0;
 	}
 	.skills__item_br_1440 {
 		display: none;
@@ -684,7 +695,7 @@ input[type="text" i] {
 	.skills__bar {
 		display: flex;
 		justify-content: center;
-		margin-bottom: 34px;
+		margin-bottom: 33px;
 	}
 
 	.skills__bar_circle	{
@@ -707,8 +718,8 @@ input[type="text" i] {
 	}
 
 	input[type="text" i] {
-  	padding: 19px 105px 15px 25px;
-	}
+  	padding: 17px 107px 15px 23px;
+ }
 
 	.form__header {
 		font: 900 16px/19px 'Montserrat-black', arial, helvetica, sans-serif;
@@ -716,22 +727,22 @@ input[type="text" i] {
 		padding: 33px 0 0 0;
 	}
 	.form__description {
-	font: 600 16px/19px 'Montserrat-semibold', arial, helvetica, sans-serif;
-	margin: 0 0 21px 0;
+	font: 600 16px/20px 'Montserrat-semibold', arial, helvetica, sans-serif;
+	margin: 0 0 20px 0;
 	padding: 0 23px;
 	}
 	.form__item {
 		font: 600 10px/12px 'Montserrat-semibold', arial, helvetica;
-		margin-bottom: 10px;
+		margin-bottom: 12px;
 	}
 		.form__item:last-child {
-		margin-bottom: 30px;
+		margin-bottom: 31px;
 	}
 
 	.form__button {
 		font: 900 16px/19px 'Montserrat-black', arial, helvetica, sans-serif;
-		padding: 15px 82px;
-		margin-bottom: 32px;
+		padding: 15px 82px 16px 81px;
+		margin-bottom: 31px;
 	}
 
 	.form >p > br {
@@ -739,8 +750,8 @@ input[type="text" i] {
 	}
 
 	.form__img {
-		padding: 0;
-		margin-bottom: 25px;
+		padding: 0 0 0 2px;
+		margin-bottom: 24px;
 	}
 
 
@@ -751,16 +762,16 @@ input[type="text" i] {
 	}
 
 	.icons {
-		display: flex;
+		/* display: flex; */
 		justify-content: space-between;
-		margin-bottom: 47px;
-		padding: 0px 30px;
+		margin-bottom: 43px;
+		/* padding: 0px 9.3%; */
 	}
 
 	.footer__image {
 		width: 35px;
 		height: auto;
-		margin: 0;
+		margin: 0 74px 0px 0;
 	}
 	.br_320 {
 		display: block;

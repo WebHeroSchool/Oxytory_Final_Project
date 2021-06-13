@@ -36,9 +36,9 @@
 
 @font-face {
   font-family: 'Montserrat-semibold';
-  src: url('fonts/Montserrat-semibold.ttf') format('ttf'),
-  url('fonts/montserrat-semibold-webfont.woff') format('woff'),
-  url('fonts/montserrat-semibold-webfont.woff2') format('woff2');
+  src: url('fonts/Montserrat-SemiBold.ttf') format('ttf'),
+  url('fonts/Montserrat-SemiBold.woff') format('woff'),
+  url('fonts/Montserrat-SemiBold.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
